@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "Cover": "https://i.ibb.co.com/ngJmX3t/flat-lay-desktop-with-notebook-pizza.jpg",
+    "title": "The Enigma of the Lost City",
+    "author": "Avery Stone",
+    "author_Img": " https://i.ibb.co.com/GvbgrS5/author3.jpg",
+    "posted_date": "August 18, 2024 (9 days ago)",
+    "reading_time": 12,
+    "hashtags": ["mystery", "history", "adventure"]
+  },
+  {
+    "id": 2,
+    "Cover": "https://i.ibb.co.com/wpcPWpv/flat-lay-keyboard-headphones-with-copy-space.jpg",
+    "title": "Breaking Through the AI Revolution",
+    "author": "Jordan Blake",
+    "author_Img": " https://i.ibb.co.com/ggDSXb3/author5.jpg",
+    "posted_date": "August 20, 2024 (11 days ago)",
+    "reading_time": 8,
+    "hashtags": ["technology", "AI", "future"]
+  },
+  {
+    "id": 3,
+    "Cover": "https://i.ibb.co.com/T1cpzyk/open-laptop-with-white-headphone-desk-against-concrete-wall.jpg",
+    "title": "A Journey into the Deep Ocean",
+    "author": "Morgan Reed",
+    "author_Img": "https://i.ibb.co.com/JHXhdF4/author1.jpg",
+    "posted_date": "August 29, 2024 (20 days ago)",
+    "reading_time": 10,
+    "hashtags": ["ocean", "science", "exploration"]
+  },
+  {
+    "id": 4,
+    "Cover": "https://i.ibb.co.com/TqYwn60/top-view-desk-concept-with-notebook.jpg",
+    "title": "The Art of Minimalist Living",
+    "author": "Taylor Green",
+    "author_Img": " https://i.ibb.co.com/sPj3RHP/autor6.jpg",
+    "posted_date": "August 25, 2024 (16 days ago)",
+    "reading_time": 6,
+    "hashtags": ["minimalism", "lifestyle", "design"]
+  },
+  {
+    "id": 5,
+    "Cover": "https://i.ibb.co.com/54mqgjH/top-view-desk-concept-with-coffee.jpg",
+    "title": "Exploring the Cosmos: A Beginner's Guide",
+    "author": "Cameron Lee",
+    "author_Img": "https://i.ibb.co.com/JF21q7n/author2.jpg",
+    "posted_date": "August 28, 2024 (19 days ago)",
+    "reading_time": 15,
+    "hashtags": ["science", "space", "astronomy"]
+  }
+]
