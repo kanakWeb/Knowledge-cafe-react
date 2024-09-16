@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import { FaBookBookmark } from "react-icons/fa6";
 import PropTypes from "prop-types";
-const Blog = ({ allBlog, handleBookmarks,handleReadingTimes }) => {
+const Blog = ({ allBlog, handleBookmarks, handleReadingTimes }) => {
   const {
     Cover,
     title,
@@ -14,7 +14,7 @@ const Blog = ({ allBlog, handleBookmarks,handleReadingTimes }) => {
   } = allBlog;
 
   return (
-    <div className="mb-20 mr-8">
+    <div className="mb-20 md:mr-8">
       <img
         className="w-full mt-4 mb-8 rounded-md "
         src={Cover}
@@ -31,7 +31,10 @@ const Blog = ({ allBlog, handleBookmarks,handleReadingTimes }) => {
         </div>
         <div className="flex justify-center items-center">
           <span className="mx-4">{reading_time} min read</span>
-          <button onClick={()=>handleBookmarks(allBlog)} className="text-violet-500 text-xl">
+          <button
+            onClick={() => handleBookmarks(allBlog)}
+            className="text-violet-500 text-xl"
+          >
             <FaBookBookmark />
           </button>
         </div>
@@ -43,13 +46,17 @@ const Blog = ({ allBlog, handleBookmarks,handleReadingTimes }) => {
         </span>
       ))}
       <div className="mt-4">
-      <button onClick={()=>handleReadingTimes(reading_time)} className="text-lg font-medium text-blue-600 underline">Mark as read</button>
+        <button
+          onClick={() => handleReadingTimes(reading_time)}
+          className="text-lg font-medium text-blue-600 underline"
+        >
+          Mark as read
+        </button>
       </div>
-    </div> 
+    </div>
   );
 };
 Blog.propTypes = {
   allBlog: PropTypes.object.isRequired,
- 
 };
 export default Blog;

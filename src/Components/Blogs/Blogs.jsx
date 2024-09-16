@@ -13,7 +13,7 @@ const Blogs = ({ handleBookmarks ,handleReadingTimes}) => {
   }, []);
   return (
     <div className="md:w-2/3 ">
-      <h1 className="text-2xl my-4 text-blue-600 font-semibold">Total Blogs : {blogs.length}</h1>
+      <h1 className="text-xl my-4 text-blue-600 font-semibold">Total Blogs : {blogs.length}</h1>
       {blogs.map((blog) => (
         <Blog
           key={blog.id}

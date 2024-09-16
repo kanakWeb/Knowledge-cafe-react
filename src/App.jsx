@@ -16,20 +16,21 @@ function App() {
   };
 
   const handleReadingTimes = (reading_time) => {
-    const TotalTime=(readingTimes+reading_time)
-    setReadingTimes(TotalTime)
+    const TotalTime = readingTimes + reading_time;
+    setReadingTimes(TotalTime);
   };
 
   return (
     <div className="max-w-6xl mx-auto">
       <Header></Header>
-      <div className="md:flex ">
-        <Blogs 
-        handleBookmarks={handleBookmarks}
-        handleReadingTimes={handleReadingTimes}
+      <div className="md:flex mx-5">
+        <Blogs
+          handleBookmarks={handleBookmarks}
+          handleReadingTimes={handleReadingTimes}
         ></Blogs>
-        <Bookmarks bookmarks={bookmarks}
-        readingTimes={readingTimes}
+        <Bookmarks
+          bookmarks={bookmarks}
+          readingTimes={readingTimes}
         ></Bookmarks>
       </div>
     </div>
