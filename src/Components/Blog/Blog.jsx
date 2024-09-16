@@ -4,6 +4,7 @@ import { FaBookBookmark } from "react-icons/fa6";
 import PropTypes from "prop-types";
 const Blog = ({ allBlog, handleBookmarks, handleReadingTimes }) => {
   const {
+    id,
     Cover,
     title,
     author,
@@ -47,7 +48,7 @@ const Blog = ({ allBlog, handleBookmarks, handleReadingTimes }) => {
       ))}
       <div className="mt-4">
         <button
-          onClick={() => handleReadingTimes(reading_time)}
+          onClick={() => handleReadingTimes(id,reading_time)}
           className="text-lg font-medium text-blue-600 underline"
         >
           Mark as read
